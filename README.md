@@ -44,7 +44,7 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 3. [Start the Fabric Runtime](#step-3-start-the-fabric-runtime)
 4. [Install Contract and deploy contract then export wallet](#step-4-install-contract-and-deploy-contract-then-export-wallet)
 5. [Go to Org1 you export and find org1 admin file](#step-5-go-to-org1-you-export-and-find-org1-admin-file)
-6. [Run the App](#step-1-clone-the-repo)
+6. [Run the App](#step-1-run)
 
 ## Step 1. Clone the Repo
 > https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
@@ -64,8 +64,11 @@ https://user-images.githubusercontent.com/51878421/180480186-f22b370e-c267-48d7-
 > **Note** This step is important when your Blockchain in windwos 
 > You need to open the two files key and certifcate and replace the connection details with yours 
 
-
 https://user-images.githubusercontent.com/51878421/180483130-5d579a9c-5534-4ebe-aa69-21c062dd2436.mp4
+
+## Step 6.run 
+
+https://user-images.githubusercontent.com/51878421/180483934-ba7fda0d-03d5-4560-9735-b88cefffce5e.mp4
 
 
 
