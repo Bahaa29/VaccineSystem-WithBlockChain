@@ -50,6 +50,7 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 > https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
 
 ## Step 2. from vs code open contract and connection folders
+> **Note** you need to download the connection folder from drive i provide the link in serverjs 
 https://user-images.githubusercontent.com/51878421/180477732-f3402272-617f-46f6-be38-21d1b375f890.mp4
 
 ## Step 3. start the fabric runtime
