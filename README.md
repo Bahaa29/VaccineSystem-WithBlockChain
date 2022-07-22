@@ -40,24 +40,33 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 
 # Steps 
 1. [Clone the Repo](#step-1-clone-the-repo)
-2. [From vs code open contract and Connection and vaccine folders](#step-2-From vs code open contract and Connection folders)
-3. [Start the Fabric Runtime](#step-3-Start the Fabric Runtime)
-4. [Install Contract and deploy contract then export wallet](#step-4-Install Contract and deploy contract then export wallet)
-7. [Run the App](#step-1-clone-the-repo)
+2. [From vs code open contract and Connection and vaccine folders](#step-2-from-vs-code-open-contract-and-connection-folders)
+3. [Start the Fabric Runtime](#step-3-start-the-fabric-runtime)
+4. [Install Contract and deploy contract then export wallet](#step-4-install-contract-and-deploy-contract-then-export-wallet)
+5. [Go to Org1 you export and find org1 admin file](#step-5-go-to-org1-you-export-and-find-org1-admin-file)
+6. [Run the App](#step-1-clone-the-repo)
 
 ## Step 1. Clone the Repo
 > https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
 
-## Step 2. From vs code open contract and Connection folders
+## Step 2. from vs code open contract and connection folders
 https://user-images.githubusercontent.com/51878421/180477732-f3402272-617f-46f6-be38-21d1b375f890.mp4
 
-## Step 3. Start the Fabric Runtime
+## Step 3. start the fabric runtime
 
 https://user-images.githubusercontent.com/51878421/180478988-c8a15a9f-cc5f-45e7-a1b4-8330c58a1c2f.mp4
 
-## Step 4. Install Contract and deploy contract then export wallet
+## Step 4. install contract and deploy contract then export wallet
 
 https://user-images.githubusercontent.com/51878421/180480186-f22b370e-c267-48d7-a128-7113382ea699.mp4
+
+## Step 5. go to org1 you export and find org1 admin file
+> **Note** This step is important when your Blockchain in windwos 
+> You need to open the two files key and certifcate and replace the connection details with yours 
+
+
+https://user-images.githubusercontent.com/51878421/180483130-5d579a9c-5534-4ebe-aa69-21c062dd2436.mp4
+
 
 
 
