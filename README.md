@@ -17,3 +17,14 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 * Build a blockchain back-end using Hyperledger Fabric API's
 * Deploy a Node.js app that will interact with our deployed smart contract.
 * tips of how run this in **Windows OS** and correct integration 
+
+# Included components
+*	[IBM Blockchain Platform](https://console.bluemix.net/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks) gives you total control of your blockchain network with a user interface that can simplify and accelerate your journey to deploy and manage blockchain components on the IBM Cloud Kubernetes Service.
+*	[IBM Blockchain Platform Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) is designed to assist users in developing, testing, and deploying smart contracts -- including connecting to Hyperledger Fabric environments.
+
+# Technologies
+* [Hyperledger Fabric v2.0.8](https://hyperledger-fabric.readthedocs.io) is a platform for distributed ledger solutions, underpinned by a modular architecture that  delivers high degrees of confidentiality, resiliency, flexibility, and scalability.
+* [Postman](https://www.postman.com)is an application to test the api in backend
+* [MongoDB-Cloud](https://www.mongodb.com/cloud) is a database for registration system
+* [Node.js](https://nodejs.org) is an open source, cross-platform JavaScript run-time environment that executes server-side JavaScript code.
+* [Vue.js](https://vuejs.org/) Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications.
