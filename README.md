@@ -34,7 +34,7 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 - [Install IBM Blockchain Platform Extension for VSCode](https://github.com/IBM-Blockchain/blockchain-vscode-extension)
 - [Node js](https://nodejs.org/en/download/)
 - [npm ](https://nodejs.org/en/download/)
-- [Vue server ](https://vuejs.org/download)
+- [Vue server ](https://vuejs.org/)
 - [MongoDB cloud](https://www.mongodb.com/cloud)
 - [Postman ](https://www.postman.com/download)
 
