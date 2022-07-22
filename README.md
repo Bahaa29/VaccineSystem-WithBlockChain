@@ -38,3 +38,13 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 - [MongoDB cloud](https://www.mongodb.com/cloud)
 - [Postman ](https://www.postman.com/download)
 
+# Steps 
+1. [Clone the Repo](#step-1-clone-the-repo)
+2. Start the Fabric Runtime
+3. Install Contract
+4. Instantiate Contract
+5. Export Connection Details
+6. Run the App
+
+## Step 1. Clone the Repo
+> https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
