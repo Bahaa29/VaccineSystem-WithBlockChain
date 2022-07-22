@@ -24,7 +24,17 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 
 # Technologies
 * [Hyperledger Fabric v2.0.8](https://hyperledger-fabric.readthedocs.io) is a platform for distributed ledger solutions, underpinned by a modular architecture that  delivers high degrees of confidentiality, resiliency, flexibility, and scalability.
-* [Postman](https://www.postman.com)is an application to test the api in backend
+* [Postman ](https://www.postman.com)is an application to test the api in backend
 * [MongoDB-Cloud](https://www.mongodb.com/cloud) is a database for registration system
 * [Node.js](https://nodejs.org) is an open source, cross-platform JavaScript run-time environment that executes server-side JavaScript code.
 * [Vue.js](https://vuejs.org/) Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications.
+
+# Prerequisites
+- [Install VSCode version](https://code.visualstudio.com/updates/v1_39)
+- [Install IBM Blockchain Platform Extension for VSCode](https://github.com/IBM-Blockchain/blockchain-vscode-extension)
+- [Node js](https://nodejs.org/en/download/)
+- [npm ](https://nodejs.org/en/download/)
+- [Vue server ](https://vuejs.org/download)
+- [MongoDB cloud](https://www.mongodb.com/cloud)
+- [Postman ](https://www.postman.com/download)
+
