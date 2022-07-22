@@ -50,7 +50,9 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 > https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
 
 ## Step 2. from vs code open contract and connection folders
-> **Note** you need to download the connection folder from drive i provide the link in serverjs 
+> **Note** you need to download the connection folder from drive i provide the link in serverjs
+> https://drive.google.com/file/d/1bgRZF1BOPdkWZBnKBU4b8kJt2x0sL-mL/view?usp=sharing
+
 
 https://user-images.githubusercontent.com/51878421/180477732-f3402272-617f-46f6-be38-21d1b375f890.mp4
 
