@@ -52,6 +52,13 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 * Deploy a Node.js app that will interact with our deployed smart contract.
 * tips of how run this in **Windows OS** and correct integration 
 
+# Flow digram
+<br>
+<p align="center">
+  <img src="demo/arc.png">
+</p>
+<br>
+
 # Included components
 *	[IBM Blockchain Platform](https://console.bluemix.net/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks) gives you total control of your blockchain network with a user interface that can simplify and accelerate your journey to deploy and manage blockchain components on the IBM Cloud Kubernetes Service.
 *	[IBM Blockchain Platform Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) is designed to assist users in developing, testing, and deploying smart contracts -- including connecting to Hyperledger Fabric environments.
