@@ -1,0 +1,555 @@
+{
+	"info": {
+		"_postman_id": "86ff5fd7-310c-49e3-8a46-40ea5af49e6d",
+		"name": "block chain API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "query all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/queryALL",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryALL"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryCure",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/queryCure/COVID",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryCure",
+						"COVID"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHistoryForProcess",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/queryHistoryForProcess/1657731624664/REQUEST",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryHistoryForProcess",
+						"1657731624664",
+						"REQUEST"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHospitalNames",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/listhospital",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"listhospital"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHospitalByCondition",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/queryHospitalByCondition",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryHospitalByCondition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserProcesses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "query history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"post updated\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/queryHistory/V1/Sinovak",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryHistory",
+						"V1",
+						"Sinovak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryBatch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/queryBatch/K900",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryBatch",
+						"K900"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "querySeurm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/querySeurm/id",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"querySeurm",
+						"id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHospital",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"userId\": 11,\r\n        \"id\": 101,\r\n        \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\r\n        \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/listUsers",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"listUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryCitizen",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzYxODc4Mzc1NTY2NDRiZTIwMzM4NyIsImlhdCI6MTY1NzE1MDk1OSwiZXhwIjoxNjY0OTI2OTU5fQ.qpvZ4RyKeQC7TZNbtTUR7VoU-tbfLlGoBRsAvDnMPaI",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8081/queryCitizen",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryCitizen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "readVaccine",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryAllProcess",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/queryAllProcess",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"queryAllProcess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryProcess",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "queryHospitalprocess",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createVaccine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " \r\n     {\r\n        \"VID\": \"V4\",\r\n        \"Vname\": \"Sinovakk\",\r\n        \"company\": \"sinvak\",\r\n        \"cure\": \"COVID19\",\r\n        \"date\": \"8/15/2021\",\r\n        \"expired\": \"8/3/2022\",\r\n        \"currentDate\": \"1/2/2022\",\r\n        \"owner\": \"SV3\",\r\n        \"status\": \"mandatory\",\r\n        \"batchnum\": \"K800\"\r\n        \r\n    }\r\n ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/createVaccine",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"createVaccine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createProcess",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"processID\": \"P4368\",\r\n        \"vaccineKey\": \"V1:Sinovak\",\r\n        \"citizenID\": \"C5\",\r\n        \"orgID\": \"ORG1\",\r\n        \"type\": \"RECIVE\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/createProcess",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"createProcess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delieveredVaccine",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vaccineNum\": \"V2:Sinovak\",\r\n \"timeStamp\": \"3/3/2022\",\r\n \"newOwner\": \"Hospital\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/delieveredVaccine",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"delieveredVaccine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "usedVaccine",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vaccineNum\": \"V5:Sinovakk\",\r\n\"timeStamp\": \"3/3/2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/usedVaccine",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"usedVaccine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "underTransportVaccine",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vaccineNum\": \"V2:Sinovak\",\r\n \"timeStamp\": \"3/3/2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/underTransportVaccine",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"underTransportVaccine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if(pm.response.code===200){\r",
+							"    pm.environment.set('jwt',pm.response.json().token)\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"email\":\"a@a.com\",\r\n    \"password\":\"12345678\"\r\n    \r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/api/v1/users/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\r\n        \"id\" : 6,\r\n      \"name\" : \"ma12hes1ha\",\r\n    \"password\" : \"password2\",\r\n    \"profession\":\"teachers\"      \r\n     \r\n}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/signUp",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"signUp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
