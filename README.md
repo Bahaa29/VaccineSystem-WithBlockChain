@@ -51,7 +51,10 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 
 ## Step 2. from vs code open contract and connection folders
 > **Note** you need to download the connection folder from drive i provide the link in serverjs 
+
 https://user-images.githubusercontent.com/51878421/180477732-f3402272-617f-46f6-be38-21d1b375f890.mp4
+
+
 
 ## Step 3. start the fabric runtime
 
@@ -67,10 +70,14 @@ https://user-images.githubusercontent.com/51878421/180480186-f22b370e-c267-48d7-
 
 https://user-images.githubusercontent.com/51878421/180483130-5d579a9c-5534-4ebe-aa69-21c062dd2436.mp4
 
-## Step 6.run the app
+## Step 6. run the app
+
 > write this commind for first time 
 * npm install
+
 https://user-images.githubusercontent.com/51878421/180483934-ba7fda0d-03d5-4560-9735-b88cefffce5e.mp4
+
+
 
 
 
