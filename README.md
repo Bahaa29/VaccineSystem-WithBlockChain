@@ -40,11 +40,14 @@ Risks on improper vaccine documentation and misplaced records can be minimized o
 
 # Steps 
 1. [Clone the Repo](#step-1-clone-the-repo)
-2. Start the Fabric Runtime
-3. Install Contract
-4. Instantiate Contract
-5. Export Connection Details
-6. Run the App
+2. From vs code open contract and Connection folders
+3. Start the Fabric Runtime
+4. Install Contract
+5. Instantiate Contract
+6. Export Connection Details
+7. Run the App
 
 ## Step 1. Clone the Repo
 > https://github.com/Bahaa29/VaccineSystem-WithBlockChain.git
+## Step 2. From vs code open contract and Connection folders
+
